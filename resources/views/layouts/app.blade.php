@@ -78,5 +78,17 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.17.0/axios.js"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue"></script> -->
+
+    <!-- <script>
+    var vm= new Vue({
+        el: '#app',
+        data: {
+            message: 'Lazar Kocic'
+        }
+     })
+     </script> -->
 </body>
 </html>

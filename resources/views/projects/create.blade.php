@@ -27,9 +27,11 @@
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
 
-            @foreach ($projects as $project)
-              <p>{{ $project->name }}, {{ $project->description }}</p>
-            @endforeach
+          <p>@{{ message }}</p>
+
+          @foreach ($projects as $project)
+            <p>{{ $project->name }}, {{ $project->description }}</p>
+          @endforeach
 
         </div>
     </div>
